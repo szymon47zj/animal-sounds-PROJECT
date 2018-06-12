@@ -1,0 +1,126 @@
+h1 {
+	text-align: center;
+	color: #d69761;
+	font-size: 50px;
+	margin: 0;
+}
+
+.container {
+	width: 90%;
+	height: 100%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.animal {
+	width: 180px;
+	height: 220px;
+	display: inline-block;
+	text-align: center;
+	line-height: 400px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #e4dddd;
+	font-weight: 900;
+	font-size: 28px;
+	text-transform: uppercase;
+	box-shadow: 1px 1px 10px grey;
+	box-sizing: border-box;
+	margin: 5px;
+	transition: all 0.2s;
+}
+
+.animal:hover {
+	box-shadow: 0 0 30px #1b1bad;
+	transform: scale(1.15);
+	cursor: pointer;
+}
+
+#cat {
+	background-image: url(img/cat.png);
+}
+
+#dog {
+	background-image: url(img/dog.png);
+}
+
+#ape {
+	background-image: url(img/ape.png);
+}
+
+#alligator {
+	background-image: url(img/alligator.png);
+}
+
+#bat {
+	background-image: url(img/bat.png);
+}
+
+#bee {
+	background-image: url(img/bee.png);
+}
+
+#cow {
+	background-image: url(img/cow.png);
+}
+
+#dove {
+	background-image: url(img/dove.png);
+}
+
+#duck {
+	background-image: url(img/duck.png);
+}
+
+#elephant {
+	background-image: url(img/elephant.png);
+}
+
+#horse {
+	background-image: url(img/horse.png);
+}
+
+#lion {
+	background-image: url(img/lion.png);
+}
+
+#moose {
+	background-image: url(img/moose.png);
+}
+
+#owl {
+	background-image: url(img/owl.png);
+}
+
+#panda {
+	background-image: url(img/panda.png);
+}
+
+#penguin {
+	background-image: url(img/penguin.png);
+}
+
+#pig {
+	background-image: url(img/pig.png);
+}
+
+#rooster {
+	background-image: url(img/rooster.png);
+}
+
+#sheep {
+	background-image: url(img/sheep.png);
+}
+
+#tiger {
+	background-image: url(img/tiger.png);
+}
+
+#turkey {
+	background-image: url(img/turkey.png);
+}
